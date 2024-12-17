@@ -115,8 +115,6 @@ https://api.spoonacular.com/recipes/random?number=4&apiKey=${process.env.SPOONAC
 
 ## Submission 🎯
 
-1. Push your changes to your forked repository
-2. Create a Pull Request from your fork back to the original repository
-   - Use your name as the PR title (e.g. "Petar Petrovic - 4Zida")
+Push your changes to your forked repository and that's it!
 
-That's it! Pick the tasks you want to tackle first and show us your best work. Good luck! 🚀
+Pick the tasks you want to tackle first and show us your best work. Good luck! 🚀
