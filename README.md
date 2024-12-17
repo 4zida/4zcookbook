@@ -15,7 +15,6 @@ SPOONACULAR_API_KEY=api_key_here
 ```
 
 6. Start the dev server with `npm run dev`
-7. Commit your changes
 
 ## What Will You Build? 🤔
 
