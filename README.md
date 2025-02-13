@@ -11,7 +11,7 @@ Hey there! Welcome to our frontend technical exercise. We'd love to see you buil
 5. Add the provided Spoonacular API key to `.env.local`:
 
 ```bash
-SPOONACULAR_API_KEY=api_key_here
+NEXT_PUBLIC_SPOONACULAR_API_KEY=api_key_here
 ```
 
 6. Start the dev server with `npm run dev`
