@@ -67,12 +67,12 @@ Found at `/about`, this page needs a working contact form:
 
 ### 3. Recipe Details Page 🍳
 
-Create a new route for displaying detailed recipe information. This page must be server-side rendered for optimal performance and SEO:
+Create a new route for displaying detailed recipe information. This page should use server-side rendering for optimal performance and SEO:
 
 **Standard Tasks:**
 
-- Create a dynamic route for recipe details (/recipes/[id])
-- Use server-side rendering (SSR) for initial page load
+- Create a dynamic route for recipe details (`/pages/recipes/[id].jsx`)
+- Implement `getServerSideProps` for server-side data fetching
 - Fetch and display comprehensive recipe data:
   - Title and images
   - Cooking time and servings
@@ -80,7 +80,7 @@ Create a new route for displaying detailed recipe information. This page must be
   - Step by step instructions
 - Add loading and error states
 - Make it mobile responsive
-- Implement proper metadata for SEO
+- Implement proper metadata for SEO using Next.js Head component
 
 **Advanced Tasks:**
 
@@ -88,16 +88,11 @@ Create a new route for displaying detailed recipe information. This page must be
 - Implement ingredient unit conversion
 - Add a "Similar Recipes" section
 - Add a "Jump to Recipe" button for long pages
-- Implement ISR (Incremental Static Regeneration) for better performance
+- Implement static generation with `getStaticProps` and `getStaticPaths` for better performance
 
 ## Technical Details 🛠️
 
-- Choose either the App Router (`/app`) or Pages Router (`/pages`) for your implementation
-  - We've provided examples for both, but you should pick one and stick with it
-  - Move all pages to your chosen router
-  - Remove the unused router directory completely
-  - ⚠️ The app won't build until you pick one router and delete the other
-  - 💡 Tip: Don't forget about the API route as well (/api/contact) you can only have one of these
+- This project uses Next.js Pages Router (`/pages`)
 - Style it however you want (CSS, Tailwind, whatever works for you!)
 - Install any additional libraries you'd like to use
 

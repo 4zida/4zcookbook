@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./random.module.css";
 import { recipes } from "@/data/random-recipes";
 

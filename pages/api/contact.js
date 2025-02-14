@@ -1,6 +1,3 @@
-// NOTE: This is the Pages Router version of the API route.
-// If you're using App Router, delete this file and use /app/api/contact/route.js instead
-
 export default function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(405).json({ message: "Method not allowed" });
