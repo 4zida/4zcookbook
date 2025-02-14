@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <main>
-      <h1>Welcome to 4Z's Cookbook</h1>
-      <ul>
+      <h1 className="text-3xl font-bold">Welcome to 4Z's Cookbook</h1>
+      <ul className="flex flex-col gap-4 mt-8">
         <li>
           <a href="/about">About</a>
         </li>
